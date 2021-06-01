@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181278BA2EE0CF44177FA56E /* Pods_ShakkinHensaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64AD4AE53FCDA934F366C09 /* Pods_ShakkinHensaiTests.framework */; };
 		426709D32635541000B50E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709D22635541000B50E61 /* AppDelegate.swift */; };
 		426709D52635541000B50E61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709D42635541000B50E61 /* SceneDelegate.swift */; };
-		426709D72635541000B50E61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709D62635541000B50E61 /* ViewController.swift */; };
+		426709D72635541000B50E61 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709D62635541000B50E61 /* CalculationController.swift */; };
 		426709DA2635541000B50E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426709D82635541000B50E61 /* Main.storyboard */; };
 		426709DC2635541300B50E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426709DB2635541300B50E61 /* Assets.xcassets */; };
 		426709DF2635541300B50E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426709DD2635541300B50E61 /* LaunchScreen.storyboard */; };
 		426709EA2635541400B50E61 /* ShakkinHensaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709E92635541400B50E61 /* ShakkinHensaiTests.swift */; };
 		426709F52635541400B50E61 /* ShakkinHensaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709F42635541400B50E61 /* ShakkinHensaiUITests.swift */; };
+		42670A1A2635551500B50E61 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42670A192635551500B50E61 /* AppColor.swift */; };
+		42670A1F2635553A00B50E61 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42670A1E2635553A00B50E61 /* TabBarController.swift */; };
+		42670A272635556C00B50E61 /* CaluculationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42670A262635556C00B50E61 /* CaluculationRepository.swift */; };
+		42670A2C2635558300B50E61 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42670A2B2635558300B50E61 /* CustomButton.swift */; };
+		42670A312635559800B50E61 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42670A302635559800B50E61 /* InformationViewController.swift */; };
+		D0C1F93DEC687A0CC7DF7BB5 /* Pods_ShakkinHensai_ShakkinHensaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F7D11E4C043C7EBE3E3989 /* Pods_ShakkinHensai_ShakkinHensaiUITests.framework */; };
+		D286D7E89008634797D09B4E /* Pods_ShakkinHensai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC369B1BB37ECB4CEF7FFCB /* Pods_ShakkinHensai.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F7077DFD8ACAC10B4A40735 /* Pods-ShakkinHensai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakkinHensai.debug.xcconfig"; path = "Target Support Files/Pods-ShakkinHensai/Pods-ShakkinHensai.debug.xcconfig"; sourceTree = "<group>"; };
 		426709CF2635541000B50E61 /* ShakkinHensai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakkinHensai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426709D22635541000B50E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		426709D42635541000B50E61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		426709D62635541000B50E61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		426709D62635541000B50E61 /* CalculationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
 		426709D92635541000B50E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		426709DB2635541300B50E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426709DE2635541300B50E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,19 @@
 		426709F02635541400B50E61 /* ShakkinHensaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakkinHensaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426709F42635541400B50E61 /* ShakkinHensaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakkinHensaiUITests.swift; sourceTree = "<group>"; };
 		426709F62635541400B50E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42670A192635551500B50E61 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		42670A1E2635553A00B50E61 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		42670A262635556C00B50E61 /* CaluculationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaluculationRepository.swift; sourceTree = "<group>"; };
+		42670A2B2635558300B50E61 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		42670A302635559800B50E61 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		48F7D11E4C043C7EBE3E3989 /* Pods_ShakkinHensai_ShakkinHensaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakkinHensai_ShakkinHensaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC369B1BB37ECB4CEF7FFCB /* Pods_ShakkinHensai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakkinHensai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA55C3536701A04957F9DF7 /* Pods-ShakkinHensai-ShakkinHensaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakkinHensai-ShakkinHensaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShakkinHensai-ShakkinHensaiUITests/Pods-ShakkinHensai-ShakkinHensaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82909DD1AD4CC708444D8CB7 /* Pods-ShakkinHensaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakkinHensaiTests.release.xcconfig"; path = "Target Support Files/Pods-ShakkinHensaiTests/Pods-ShakkinHensaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B071A261F5E39B366D85D844 /* Pods-ShakkinHensaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakkinHensaiTests.debug.xcconfig"; path = "Target Support Files/Pods-ShakkinHensaiTests/Pods-ShakkinHensaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48888ECE42D20D3BD481B70 /* Pods-ShakkinHensai-ShakkinHensaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakkinHensai-ShakkinHensaiUITests.release.xcconfig"; path = "Target Support Files/Pods-ShakkinHensai-ShakkinHensaiUITests/Pods-ShakkinHensai-ShakkinHensaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C64AD4AE53FCDA934F366C09 /* Pods_ShakkinHensaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakkinHensaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6DCBB24CC84AC5D0A94759 /* Pods-ShakkinHensai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakkinHensai.release.xcconfig"; path = "Target Support Files/Pods-ShakkinHensai/Pods-ShakkinHensai.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D286D7E89008634797D09B4E /* Pods_ShakkinHensai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181278BA2EE0CF44177FA56E /* Pods_ShakkinHensaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C1F93DEC687A0CC7DF7BB5 /* Pods_ShakkinHensai_ShakkinHensaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				426709E82635541400B50E61 /* ShakkinHensaiTests */,
 				426709F32635541400B50E61 /* ShakkinHensaiUITests */,
 				426709D02635541000B50E61 /* Products */,
+				766FAF2DCB763F341F69BC10 /* Pods */,
+				97A15DF07A631DDE9DF723F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +127,13 @@
 			isa = PBXGroup;
 			children = (
 				426709D22635541000B50E61 /* AppDelegate.swift */,
+				42670A1E2635553A00B50E61 /* TabBarController.swift */,
 				426709D42635541000B50E61 /* SceneDelegate.swift */,
-				426709D62635541000B50E61 /* ViewController.swift */,
+				426709D62635541000B50E61 /* CalculationController.swift */,
+				42670A262635556C00B50E61 /* CaluculationRepository.swift */,
+				42670A2B2635558300B50E61 /* CustomButton.swift */,
+				42670A302635559800B50E61 /* InformationViewController.swift */,
+				42670A192635551500B50E61 /* AppColor.swift */,
 				426709D82635541000B50E61 /* Main.storyboard */,
 				426709DB2635541300B50E61 /* Assets.xcassets */,
 				426709DD2635541300B50E61 /* LaunchScreen.storyboard */,
@@ -128,6 +160,29 @@
 			path = ShakkinHensaiUITests;
 			sourceTree = "<group>";
 		};
+		766FAF2DCB763F341F69BC10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7077DFD8ACAC10B4A40735 /* Pods-ShakkinHensai.debug.xcconfig */,
+				EE6DCBB24CC84AC5D0A94759 /* Pods-ShakkinHensai.release.xcconfig */,
+				7BA55C3536701A04957F9DF7 /* Pods-ShakkinHensai-ShakkinHensaiUITests.debug.xcconfig */,
+				C48888ECE42D20D3BD481B70 /* Pods-ShakkinHensai-ShakkinHensaiUITests.release.xcconfig */,
+				B071A261F5E39B366D85D844 /* Pods-ShakkinHensaiTests.debug.xcconfig */,
+				82909DD1AD4CC708444D8CB7 /* Pods-ShakkinHensaiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97A15DF07A631DDE9DF723F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC369B1BB37ECB4CEF7FFCB /* Pods_ShakkinHensai.framework */,
+				48F7D11E4C043C7EBE3E3989 /* Pods_ShakkinHensai_ShakkinHensaiUITests.framework */,
+				C64AD4AE53FCDA934F366C09 /* Pods_ShakkinHensaiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 426709F92635541400B50E61 /* Build configuration list for PBXNativeTarget "ShakkinHensai" */;
 			buildPhases = (
+				A22A3F4E26C865B9BAFDCE39 /* [CP] Check Pods Manifest.lock */,
 				426709CB2635541000B50E61 /* Sources */,
 				426709CC2635541000B50E61 /* Frameworks */,
 				426709CD2635541000B50E61 /* Resources */,
+				276265E48F9223A3725298BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 426709FC2635541400B50E61 /* Build configuration list for PBXNativeTarget "ShakkinHensaiTests" */;
 			buildPhases = (
+				0D283514357D6BE53B0B2E57 /* [CP] Check Pods Manifest.lock */,
 				426709E12635541400B50E61 /* Sources */,
 				426709E22635541400B50E61 /* Frameworks */,
 				426709E32635541400B50E61 /* Resources */,
@@ -170,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 426709FF2635541400B50E61 /* Build configuration list for PBXNativeTarget "ShakkinHensaiUITests" */;
 			buildPhases = (
+				9E824FFEAE2CD7D3EECA120D /* [CP] Check Pods Manifest.lock */,
 				426709EC2635541400B50E61 /* Sources */,
 				426709ED2635541400B50E61 /* Frameworks */,
 				426709EE2635541400B50E61 /* Resources */,
+				F389093EC7B2A59BC74FB4E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +313,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D283514357D6BE53B0B2E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShakkinHensaiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		276265E48F9223A3725298BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShakkinHensai/Pods-ShakkinHensai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShakkinHensai/Pods-ShakkinHensai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShakkinHensai/Pods-ShakkinHensai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E824FFEAE2CD7D3EECA120D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShakkinHensai-ShakkinHensaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22A3F4E26C865B9BAFDCE39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShakkinHensai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F389093EC7B2A59BC74FB4E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShakkinHensai-ShakkinHensaiUITests/Pods-ShakkinHensai-ShakkinHensaiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShakkinHensai-ShakkinHensaiUITests/Pods-ShakkinHensai-ShakkinHensaiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShakkinHensai-ShakkinHensaiUITests/Pods-ShakkinHensai-ShakkinHensaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		426709CB2635541000B50E61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426709D72635541000B50E61 /* ViewController.swift in Sources */,
+				426709D72635541000B50E61 /* CalculationController.swift in Sources */,
+				42670A1A2635551500B50E61 /* AppColor.swift in Sources */,
 				426709D32635541000B50E61 /* AppDelegate.swift in Sources */,
+				42670A272635556C00B50E61 /* CaluculationRepository.swift in Sources */,
+				42670A2C2635558300B50E61 /* CustomButton.swift in Sources */,
+				42670A1F2635553A00B50E61 /* TabBarController.swift in Sources */,
 				426709D52635541000B50E61 /* SceneDelegate.swift in Sources */,
+				42670A312635559800B50E61 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,44 +601,53 @@
 		};
 		426709FA2635541400B50E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7077DFD8ACAC10B4A40735 /* Pods-ShakkinHensai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = ShakkinHensai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.ShakkinHensai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ShakkinHensai Provisioning";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		426709FB2635541400B50E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6DCBB24CC84AC5D0A94759 /* Pods-ShakkinHensai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = ShakkinHensai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.ShakkinHensai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ShakkinHensai Provisioning";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		426709FD2635541400B50E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B071A261F5E39B366D85D844 /* Pods-ShakkinHensaiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +670,7 @@
 		};
 		426709FE2635541400B50E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82909DD1AD4CC708444D8CB7 /* Pods-ShakkinHensaiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +693,7 @@
 		};
 		42670A002635541400B50E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA55C3536701A04957F9DF7 /* Pods-ShakkinHensai-ShakkinHensaiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +714,7 @@
 		};
 		42670A012635541400B50E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48888ECE42D20D3BD481B70 /* Pods-ShakkinHensai-ShakkinHensaiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
